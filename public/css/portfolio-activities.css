@@ -1,0 +1,902 @@
+.scorecard9 a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo-icon4 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-wrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl) 0 0;
+}
+.home5,
+.portfolio5 {
+  position: relative;
+  display: inline-block;
+  min-width: 56px;
+}
+.portfolio5 {
+  color: var(--green-stock2);
+  min-width: 81px;
+}
+.leaderboard4,
+.rules4,
+.trade4 {
+  position: relative;
+  display: inline-block;
+  min-width: 55px;
+}
+.leaderboard4,
+.rules4 {
+  min-width: 121px;
+}
+.rules4 {
+  min-width: 52px;
+}
+.my-investments4 {
+  position: relative;
+  white-space: nowrap;
+}
+.home-container,
+.user-interface-block {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home-container {
+  flex-direction: row;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.user-interface-block {
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-17xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.search-icon6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.rank-and-membership-info {
+  width: 237px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 21.5px;
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 300;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+}
+.edit-profile-modal,
+.rank-and-membership-info,
+.search-box14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.search-box14 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-500);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-5xs);
+  gap: var(--gap-10xs);
+}
+.edit-profile-modal {
+  height: 59px;
+  width: 346px;
+  flex-direction: column;
+  padding: var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.profile-icon3 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navigation-panel6,
+.performance-indicator {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.navigation-panel6 {
+  align-self: stretch;
+  height: 112px;
+  border-bottom: 1px solid var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-104xl-5);
+  gap: var(--gap-5xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+.tagline9 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 115px;
+}
+.tagline8,
+.user-settings-modal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tagline8 {
+  flex: 1;
+  background-color: var(--green-stock2);
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.user-settings-modal {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 45px;
+}
+.my-space1,
+.portfolio6 {
+  position: relative;
+  display: inline-block;
+}
+.my-space1 {
+  color: var(--green-stock2);
+  min-width: 94px;
+}
+.portfolio6 {
+  min-width: 81px;
+}
+.order-book1 {
+  display: inline-block;
+  min-width: 108px;
+}
+.order-book1,
+.profit-loss1 {
+  position: relative;
+}
+.my-space-group,
+.search-bar-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.my-space-group {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.search-bar-inner {
+  width: 928px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.profile-edit-icon1 {
+  height: 140px;
+  width: 140px;
+  position: relative;
+}
+.rank1 {
+  color: var(--green-stock2);
+}
+.username-rank1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.joined-1 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 104px;
+}
+.joined-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  font-size: var(--font-size-xl);
+}
+.updates-container,
+.updates-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.updates-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.updates-container-wrapper {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xl);
+  box-sizing: border-box;
+  min-width: 170px;
+}
+.activities-messages-my-leagues1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+}
+.activities-messages-my-leagues-wrapper {
+  width: 454px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.reset-your-portfolio1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+}
+.search-box15,
+.search-box16 {
+  display: flex;
+  flex-direction: row;
+}
+.search-box16 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-600);
+  padding: var(--padding-xs) var(--padding-mini);
+  background-color: var(--green-stock);
+  width: 224px;
+  border-radius: var(--br-base);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.search-box16:hover {
+  background-color: var(--color-mediumseagreen-100);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.search-box15 {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.scorecard-child1 {
+  height: 56px;
+  width: 960px;
+  position: relative;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--green-stock1);
+  flex-shrink: 0;
+  display: none;
+}
+.scorecard10 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 126px;
+}
+.scorecard-label,
+.scorecard9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scorecard9 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-300);
+  padding: var(--padding-3xs) var(--padding-4xs);
+  background-color: transparent;
+  flex-direction: row;
+  z-index: 1;
+}
+.activities4:hover,
+.messages4:hover,
+.my-leagues2:hover,
+.scorecard9:hover {
+  background-color: var(--color-darkslategray-300);
+  border: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+}
+.scorecard-label {
+  flex-direction: column;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.activities5 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 110px;
+}
+.activities4 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-300);
+  padding: var(--padding-3xs) var(--padding-4xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.messages5 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 109px;
+}
+.messages4 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-300);
+  padding: var(--padding-3xs) var(--padding-4xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.my-leagues3 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 129px;
+}
+.my-leagues2,
+.scorecard8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.my-leagues2 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-300);
+  padding: var(--padding-3xs) var(--padding-4xs);
+  background-color: transparent;
+  z-index: 1;
+}
+.scorecard8 {
+  align-self: stretch;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--green-stock1);
+  overflow-x: auto;
+  padding: var(--padding-8xs) var(--padding-100xl) var(--padding-6xs);
+  gap: var(--gap-12xs);
+}
+.logo-icon5 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.days-ago,
+.xyz-has-created {
+  position: relative;
+  display: inline-block;
+}
+.xyz-has-created {
+  height: 73px;
+  flex: 1;
+  font-weight: 500;
+  min-width: 176px;
+}
+.days-ago {
+  font-weight: 300;
+  min-width: 95px;
+}
+.days-ago-wrapper,
+.logo-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.days-ago-wrapper {
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  font-family: var(--font-inria-serif);
+}
+.logo-parent {
+  flex: 1;
+  border-bottom: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-6xs) 0 var(--padding-7xs);
+  gap: var(--gap-4xs);
+  min-width: 302px;
+  max-width: 100%;
+}
+.logo-icon6 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.days-ago1,
+.xyz-has-created1 {
+  position: relative;
+  display: inline-block;
+}
+.xyz-has-created1 {
+  height: 73px;
+  flex: 1;
+  font-weight: 500;
+  min-width: 176px;
+}
+.days-ago1 {
+  font-weight: 300;
+  min-width: 95px;
+}
+.days-ago-container,
+.frame-parent13,
+.logo-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.days-ago-container {
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  font-family: var(--font-inria-serif);
+}
+.frame-parent13,
+.logo-group {
+  flex-direction: row;
+  max-width: 100%;
+}
+.logo-group {
+  flex: 1;
+  border-bottom: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  padding: var(--padding-6xs) 0 var(--padding-7xs);
+  gap: var(--gap-4xs);
+  min-width: 302px;
+}
+.frame-parent13 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-xs);
+}
+.logo-icon7 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.days-ago2,
+.xyz-has-created2 {
+  position: relative;
+  display: inline-block;
+}
+.xyz-has-created2 {
+  height: 73px;
+  flex: 1;
+  font-weight: 500;
+  min-width: 176px;
+}
+.days-ago2 {
+  font-weight: 300;
+  min-width: 95px;
+}
+.days-ago-frame,
+.logo-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.days-ago-frame {
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  font-family: var(--font-inria-serif);
+}
+.logo-parent1 {
+  flex: 1;
+  border-bottom: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-6xs) 0 var(--padding-7xs);
+  gap: var(--gap-4xs);
+  min-width: 302px;
+  max-width: 100%;
+}
+.logo-icon8 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.days-ago3,
+.xyz-has-created3 {
+  position: relative;
+  display: inline-block;
+}
+.xyz-has-created3 {
+  height: 73px;
+  flex: 1;
+  font-weight: 500;
+  min-width: 176px;
+}
+.days-ago3 {
+  font-weight: 300;
+  min-width: 95px;
+}
+.days-ago-wrapper1,
+.logo-parent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.days-ago-wrapper1 {
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  font-family: var(--font-inria-serif);
+}
+.logo-parent2 {
+  flex: 1;
+  border-bottom: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-6xs) 0 var(--padding-7xs);
+  gap: var(--gap-4xs);
+  min-width: 302px;
+  max-width: 100%;
+}
+.frame-parent14,
+.updates {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.frame-parent14 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.updates {
+  padding: var(--padding-5xs) var(--padding-9xs) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+}
+.scorecard-parent,
+.search-bar,
+.search-box-parent,
+.updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.scorecard-parent {
+  width: 960px;
+  align-items: flex-start;
+  gap: var(--gap-19xl);
+  font-size: var(--font-size-xl);
+}
+.search-bar,
+.search-box-parent {
+  align-items: flex-end;
+}
+.search-box-parent {
+  align-self: stretch;
+  gap: var(--gap-7xl);
+  font-size: var(--font-size-9xl);
+}
+.search-bar {
+  width: 1056px;
+  gap: 56px;
+}
+.navigation-panel5,
+.search-bar-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.search-bar-wrapper {
+  width: 1376px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.navigation-panel5 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.disclaimer4,
+.feedback4,
+.forum4 {
+  position: absolute;
+  margin: 0 !important;
+  top: 36.5px;
+  left: 91.5px;
+  display: inline-block;
+  min-width: 60px;
+}
+.disclaimer4,
+.feedback4 {
+  left: 187.5px;
+  min-width: 93px;
+}
+.disclaimer4 {
+  left: 316.5px;
+  min-width: 98px;
+}
+.privacy-policy4,
+.terms-conditions4 {
+  position: absolute;
+  margin: 0 !important;
+  top: 36.5px;
+  left: 450.5px;
+}
+.terms-conditions4 {
+  left: 618.5px;
+}
+.about-us4 {
+  top: 36.5px;
+  left: 838.5px;
+  display: inline-block;
+  min-width: 88px;
+}
+.about-us4,
+.contact-us4,
+.powered-by-iem3 {
+  position: absolute;
+  margin: 0 !important;
+}
+.contact-us4 {
+  top: 36.5px;
+  left: 962.5px;
+  display: inline-block;
+  min-width: 107px;
+}
+.powered-by-iem3 {
+  top: 104.5px;
+  left: 508.5px;
+  font-weight: 300;
+  font-family: var(--font-inria-serif);
+}
+.contact-us-link {
+  height: 165px;
+  width: 1161px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  gap: 44px 36px;
+  max-width: 100%;
+}
+.footer5,
+.portfolio-activities {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+}
+.footer5 {
+  align-self: stretch;
+  background-color: var(--green-stock2);
+  border: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.portfolio-activities {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 429px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .navigation-panel6 {
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .user-interface-block {
+    display: none;
+  }
+  .scorecard8 {
+    padding-left: var(--padding-40xl);
+    padding-right: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigation-panel6 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .my-space-group,
+  .search-box15 {
+    flex-wrap: wrap;
+  }
+  .search-box15 {
+    justify-content: center;
+  }
+  .updates {
+    gap: 19px 39px;
+  }
+  .scorecard-parent {
+    gap: 19px 38px;
+  }
+  .search-bar {
+    gap: 28px 56px;
+  }
+  .portfolio-activities {
+    gap: 214px 429px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-container {
+    display: none;
+  }
+  .tagline9 {
+    font-size: var(--font-size-lgi);
+  }
+  .my-space1,
+  .order-book1,
+  .portfolio6,
+  .profit-loss1 {
+    font-size: var(--font-size-base);
+  }
+  .profile-edit-icon1 {
+    flex: 1;
+  }
+  .username-rank1 {
+    font-size: var(--font-size-3xl);
+  }
+  .joined-1 {
+    font-size: var(--font-size-base);
+  }
+  .activities-messages-my-leagues1 {
+    flex-wrap: wrap;
+    gap: 53px 26px;
+  }
+  .activities5,
+  .messages5,
+  .my-leagues3,
+  .scorecard10 {
+    font-size: var(--font-size-base);
+  }
+  .scorecard8 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .days-ago,
+  .xyz-has-created {
+    font-size: var(--font-size-base);
+  }
+  .logo-parent {
+    flex-wrap: wrap;
+  }
+  .days-ago1,
+  .xyz-has-created1 {
+    font-size: var(--font-size-base);
+  }
+  .logo-group {
+    flex-wrap: wrap;
+  }
+  .days-ago2,
+  .xyz-has-created2 {
+    font-size: var(--font-size-base);
+  }
+  .logo-parent1 {
+    flex-wrap: wrap;
+  }
+  .days-ago3,
+  .xyz-has-created3 {
+    font-size: var(--font-size-base);
+  }
+  .logo-parent2 {
+    flex-wrap: wrap;
+  }
+  .about-us4,
+  .contact-us4,
+  .disclaimer4,
+  .feedback4,
+  .forum4,
+  .powered-by-iem3,
+  .privacy-policy4,
+  .terms-conditions4 {
+    font-size: var(--font-size-base);
+  }
+  .portfolio-activities {
+    gap: 107px 429px;
+  }
+}
