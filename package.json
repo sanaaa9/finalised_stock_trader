@@ -13,6 +13,7 @@
   },
   "main": "express.js",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "lightweight-charts": "^4.1.7"
   }
 }

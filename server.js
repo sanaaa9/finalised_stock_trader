@@ -3,7 +3,6 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-
 app.use(express.static('public'));
 
 
@@ -24,8 +23,6 @@ app.get('/trade', (req, res) => {
 app.get('/portfolio/activities', (req, res) => {
   res.sendFile(path.join(__dirname, 'pages', 'portfolio-activities.html'));
 });
-
-
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
