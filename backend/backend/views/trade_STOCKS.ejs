@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/trade.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap" />
+
+  <style>
+    /* Add some basic styles for the search bar */
+    .search-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 10px 0;
+    }
+
+    .search-box input {
+      border: none;
+      outline: none;
+      flex: 1;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    .search-box img {
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
+    }
+
+    .list-group {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .list-group-item {
+      padding: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .list-group-item:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="trade-stocks">
+    <header class="navigation-panel">
+      <div class="logo-wrapper">
+        <img class="logo-icon" loading="lazy" alt="" src="./assets/stocks/logo.svg" />
+      </div>
+      <nav class="navigation-panel-inner">
+        <nav class="home-parent">
+          <div class="home"><a href="/">Home</a></div>
+          <div class="portfolio"><a href="/portfolio">Portfolio</a></div>
+          <div class="trade">Trade</div>
+          <div class="leaderboard">Leaderboard</div>
+        </nav>
+      </nav>
+      <div class="profile-instance">
+        <div class="rules-parent">
+          <div class="rules">Rules</div>
+          <div class="my-investments">My Investments</div>
+        </div>
+      </div>
+      <div class="portfolio-picker">
+        <div class="notes">Notes</div>
+      </div>
+      <div class="navigation-panel-child">
+        <div class="frame-parent">
+          <div class="search-box-wrapper">
+            <div class="search-box">
+              <img class="search-icon" alt="" src="./assets/stocks/search.svg" />
+              <input class="search-box-child" placeholder="Search Stocks, MFs, Bonds, etc" type="text"
+                id="stockSearch2" />
+            </div>
+          </div>
+          <img class="profile-icon" loading="lazy" alt="" src="./assets/stocks/profile.svg" />
+        </div>
+      </div>
+    </header>
+    <main class="tagline-parent">
+      <div class="tagline">
+        <div class="tagline1">#Tagline...</div>
+      </div>
+      <section class="frame-group">
+        <div class="scorecard-wrapper">
+          <div class="scorecard">
+            <div class="scorecard-child"></div>
+            <button class="scorecard1">
+              <div class="stocks">STOCKS</div>
+            </button>
+            <button class="activities">
+              <div class="mutual-funds">MUTUAL FUNDS</div>
+            </button>
+            <button class="messages">
+              <div class="bonds">BONDS</div>
+            </button>
+          </div>
+        </div>
+        <div class="frame-wrapper">
+          <div class="frame-container">
+            <div class="select-portfolio-wrapper">
+              <div class="select-portfolio">Select Portfolio</div>
+            </div>
+            <div class="search-box1">
+              <div class="portfolio-name">Portfolio name</div>
+              <img class="icons" alt="" src="./assets/stocks/icons.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="rectangle-parent">
+          <div class="frame-child"></div>
+          <div class="rectangle-group">
+            <div class="frame-item"></div>
+            <div class="add-stocks-wrapper">
+              <h2 class="add-stocks">ADD STOCKS</h2>
+            </div>
+            <button class="search-box2">
+              <img class="search-icon1" alt="" src="./assets/stocks/search-1.svg" />
+            </button>
+          </div>
+        </div>
+        <div class="search-container">
+          <input type="text" id="stockSearch" placeholder="Search for a stock..." class="form-control"
+            autocomplete="off" />
+          <ul id="stockResults" class="list-group"></ul>
+        </div>
+
+        <div id="tradeOptions" style="display: none">
+          <h3 id="selectedStock"></h3>
+          <form id="buySellForm" action="/trade/buy-sell" method="POST">
+            <input type="hidden" name="symbol" id="stockSymbol" />
+            <input type="number" name="quantity" placeholder="Quantity" class="form-control mb-2" />
+            <button type="submit" name="action" value="buy" class="btn btn-success">
+              Buy
+            </button>
+            <button type="submit" name="action" value="sell" class="btn btn-danger">
+              Sell
+            </button>
+          </form>
+        </div>
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container" style="height: 600px; width: 80%; margin: auto">
+          <div class="tradingview-widget-container__widget" style="height: 100%; width: 100%"></div>
+          <script type="text/javascript">
+            function loadTradingViewWidget() {
+              new TradingView.widget({
+                container_id: "tradingview-widget-container__widget",
+                autosize: true,
+                symbol: "NASDAQ:AAPL",
+                interval: "D",
+                timezone: "Etc/UTC",
+                theme: "light",
+                style: "1",
+                locale: "en",
+                allow_symbol_change: true,
+                calendar: false,
+                support_host: "https://www.tradingview.com",
+              });
+            }
+          </script>
+          <script type="text/javascript"
+            src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async
+            onload="loadTradingViewWidget()"></script>
+        </div>
+  </div>
+  <!-- TradingView Widget END -->
+  </section>
+  </main>
+  <footer class="footer">
+    <div class="forum-parent">
+      <div class="forum">Forum</div>
+      <div class="feedback">Feedback</div>
+      <div class="disclaimer">Disclaimer</div>
+      <div class="privacy-policy">Privacy Policy</div>
+      <div class="terms-conditions">Terms & Conditions</div>
+      <div class="about-us">About Us</div>
+      <div class="contact-us">Contact Us</div>
+      <div class="powered-by-iem">Powered by IEM</div>
+    </div>
+  </footer>
+  <script>
+    document
+      .getElementById("stockSearch")
+      .addEventListener("input", async function () {
+        const query = this.value.trim();
+        const resultsContainer = document.getElementById("stockResults");
+        // Clear results if query is empty
+        if (query.length === 0) {
+          resultsContainer.innerHTML = "";
+          return;
+        }
+        if (query.length > 1) {
+          try {
+            const res = await fetch(`/api/search-stocks?query=${query}`);
+            if (!res.ok) {
+              throw new Error("Network response was not ok");
+            }
+            const data = await res.json();
+            const resultsContainer = document.getElementById("stockResults");
+            resultsContainer.innerHTML = "";
+            console.log(data);
+            data.result.forEach((stock) => {
+              const li = document.createElement("li");
+              li.classList.add("list-group-item");
+              li.textContent = `${stock.symbol} - ${stock.description}`;
+              li.addEventListener("click", () => selectStock(stock));
+              resultsContainer.appendChild(li);
+            });
+          } catch (err) {
+            console.error("Error fetching stock search results:", err);
+          }
+        }
+        
+      });
+  
+    function selectStock(stock) {
+      document.getElementById("selectedStock").textContent = `${stock.symbol} - ${stock.description}`;
+      document.getElementById("stockSymbol").value = stock.symbol; // Ensure this is set correctly
+      document.getElementById("tradeOptions").style.display = "block";
+      document.getElementById("stockResults").innerHTML = "";
+      document.getElementById("stockSearch").value = "";
+    }
+  </script>  
+</body>
+</html>
